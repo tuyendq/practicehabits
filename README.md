@@ -1,4 +1,22 @@
-# practicehabits
+# Host a static website on GCP Storage Bucket
+
+[www.practicehabits.net](https://www.practicehabits.net)
+
+## History
+- 20230905: move from gcp storage bucket to firebase hosting
+
+
+```bash
+
+gcloud auth login
+
+gcloud config list
+
+gcloud config set account `ACCOUNT`
+
+gcloud projects list
+
+```
 
 Create bucket:  
 ```bash
